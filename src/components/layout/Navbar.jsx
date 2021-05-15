@@ -21,7 +21,7 @@ export default function Navbar() {
     return (
         <NavContainer>
             <div className="logo-container">
-                <h1>PCMS</h1>
+                <h1>VSMS</h1>
             </div>
             <nav className="main-nav">
                 <i className="fa fa-bars" aria-hidden="true" onClick={handleExpand} />
@@ -49,9 +49,9 @@ const NavContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //position: fixed;
-  //width: 100%;
-  //top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
   h1 {
     margin: 0 10px;
   }
@@ -79,7 +79,7 @@ const NavContainer = styled.header`
     text-decoration: none;
     padding: 5px;
     &:hover {
-      background-color: #fff;
+      border: 1px solid #fff;
       border-radius: 4px;
       transition: all 0.2s ease-in-out;
     }

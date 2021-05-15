@@ -5,7 +5,7 @@ export default function AddPatient() {
     return (
         <div>
             <Navbar />
-            <h1>Add Patients</h1>
+            <h1>Add Subscriber</h1>
         </div>
     );
 };

@@ -15,7 +15,6 @@ export default function AdminDashboard() {
             .then((success) => {
                 setSubscribers(success);
                 setIsLoading(true);
-                console.log(success);
             })
             .catch(error => console.error(error));
         }
@@ -59,6 +58,7 @@ export default function AdminDashboard() {
 };
 
 const MainContent = styled.section`
+  margin: 60px 0;
   h1 {
     margin: 30px 10px;
   }
